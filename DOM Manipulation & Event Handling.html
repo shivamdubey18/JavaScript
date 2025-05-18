@@ -1,0 +1,14 @@
+<!-- Add this inside <body> -->
+    <button id="btn">Click Me</button>
+    <p id="output"></p>
+    
+    <script>
+      const button = document.getElementById('btn');
+      const output = document.getElementById('output');
+    
+      button.addEventListener('click', () => {
+        output.textContent = 'Button was clicked!';
+        output.style.color = 'green';
+      });
+    </script>
+    
